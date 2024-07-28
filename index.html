@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator..</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body >
+    <div id="mode">
+        <div><i class="fa-solid fa-moon" id="moon" ></i></div>
+            <div><img src="sun.png" id="sun"alt="" style="display: none;"></div>
+        
+    </div>
+    <div class="cal_screen">
+        <div class="cal_upper_part" id="output" ></div>
+        <div class="cal_lower_part">
+            <table border="1px">
+                <tr>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th class="operator">*</th>
+                </tr>
+                <tr>
+                     <th>4</th>
+                     <th>5</th>
+                     <th>6</th>
+                     <th class="operator">-</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th class="operator">+</th>
+                </tr>
+                <tr>
+                    <th>0</th>
+                    <th>.</th>
+                    <th id="clear" >C</th> 
+                    <th class="operator">/</th>
+                </tr>
+                <tr>
+                    <th colspan="4" id="equal_to" class="equal_to">=</th> 
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
